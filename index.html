@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript Image Compressor</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="icon" type="image/png" href="favicon.ico">
+
+</head>
+<body>
+
+	<div>
+		<input type="file" name="demoImage" onchange="showPreview()" />
+		Original:
+		<img id="source_img" alt="" src="" width="500">
+	</div>
+
+	<div>
+		Compressed:
+		<img id="target_img">
+	</div>
+
+	<button onclick="compress()">Compress</button>
+
+	<script type="text/javascript" src="JIC.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
